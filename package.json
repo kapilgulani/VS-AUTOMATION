@@ -40,6 +40,10 @@
             {
                 "command": "extension.generateSummary",
                 "title": "Generate Summary"
+            },
+            {
+                "command": "extension.askCodebase",
+                "title": "Ask Codebase Question"
             }
         ]
     },
@@ -52,6 +56,7 @@
         "test": "vscode-test"
     },
     "devDependencies": {
+        "@types/marked": "^5.0.2",
         "@types/mocha": "^10.0.9",
         "@types/node": "^20.17.19",
         "@types/vscode": "^1.93.0",
@@ -65,7 +70,7 @@
     "dependencies": {
         "@pinecone-database/pinecone": "^4.0.0",
         "dotenv": "^16.4.5",
-        "marked": "^15.0.7",
+        "marked": "^15.0.11",
         "openai": "^4.85.3",
         "pinecone": "^0.1.0",
         "vscode": "^1.1.37"
